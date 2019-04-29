@@ -1,6 +1,6 @@
 import jwt
 import string, random, time, smtplib, base64
-import config.config as cfg # Config file
+import config as cfg # Config file
 
 def generateCode(email):
 	metadataDict = {}
@@ -50,9 +50,3 @@ def oneTimeNonce(size=16, chars=string.ascii_uppercase + string.digits):
 def trimToken(code):
 	returnTokenWithoutURL = code.replace(cfg.baseURL,"")
 	return base64.b64decode(returnTokenWithoutURL)
-
-if __name__ == '__main__':
-	code = generateCode("gowrajnarayan@gmail.com")
-	print code
-	print sendEmail(code)
-	print validateCode(code)
