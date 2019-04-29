@@ -20,7 +20,7 @@ This python library has been published to **https://pypi.org** and hence can be 
 
 ```pip install pypwdless```
 
-*NOTE: For sendEmail(code) function to work, it needs valid credentials for an SMTP server. This can be configured in **config.py** file installed under site-packages. Example: If virtualenv (venv) is used, the file can be found under {{homepath}}/venv/lib/python2.7/site-packages/pypwdless.
+*NOTE: For sendEmail(code) function to work, it needs valid credentials for an SMTP server. This can be configured in **config.py** file installed under site-packages. Example: If virtualenv (venv) is used, the file can be found under {{homepath}}/venv/lib/python2.7/site-packages/pypwdless.*
 
 ## Usage - From Source Code
 1. Create a python virtualenv. ```virtualenv venv```
@@ -29,7 +29,7 @@ This python library has been published to **https://pypi.org** and hence can be 
 4. Install dependencies (PyJwt) mentioned in requirements.txt. Use pip install -r pypwdless/requirements.txt
 5. Start using the functions provided by the code.
 
-*NOTE: For sendEmail(code) function to work, it needs valid credentials for an SMTP server. This can be configured in **config.py** file.
+*NOTE: For sendEmail(code) function to work, it needs valid credentials for an SMTP server. This can be configured in **config.py** file.*
 
 ## Working
 1. Generate a code using **generateCode** for an email address. This function will return a code. 
