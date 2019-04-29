@@ -1,4 +1,4 @@
-# pypwdless - PasswordLess Authentication In Python
+# pypwdless - Passwordless Authentication In Python
 
 ## Introduction
 This python library can be used to generate one time JWT codes which can be sent to a user's email address for authentication purposes. The code can later be verified and extended for a native app session (similar to a magic link: https://auth0.com/docs/connections/passwordless/spa-email-link). 
