@@ -53,4 +53,4 @@ if __name__ == "__main__":
 - Configurable SMTP server. For emails
 
 ## Questions
-Reach out to gowrajn@gmail.com or raise an issu/request here.
+Reach out to gowrajn@gmail.com or raise an issue/request here.
